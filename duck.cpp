@@ -38,7 +38,7 @@ int main(int argc, char *argv[]){
     std::cout << "~> ";
   }
 
-  std::cout << "goodbye!\n";
+  std::cout << "\ngoodbye!\n";
   
   return 0;
 }
