@@ -1,4 +1,4 @@
-# duck
+# ducky
 
 ## usage:
 * run the Makefile with make

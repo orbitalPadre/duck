@@ -7,7 +7,7 @@
 #include <ctime>
 #include <iomanip>
 #include "quack_lib.cpp"
-#include "duck.h"
+#include "ducky.h"
 
 #define VERSION 0.01
 
@@ -20,11 +20,11 @@ int main(int argc, char *argv[]){
   std::string uInput;
 
   if (argc != 1){
-    std::cout << "duck needs no arguments.\n";
+    std::cout << "ducky needs no arguments.\n";
     return 0;
   }
 
-  std::cout << "welcome to duck, the helpful(?) duck debugging tool.\n";
+  std::cout << "welcome to ducky, the helpful(?) duck debugging tool.\n";
   std::cout << "speak with the duck through the command line and maybe (s)he ";
   std::cout << "will be able to help you through the issue you are having.\n\n";
   std::cout << "enter 'quit' or ^C into the command line to terminate.\n";
@@ -38,7 +38,7 @@ int main(int argc, char *argv[]){
     std::cout << "~> ";
   }
 
-  std::cout << "\ngoodbye!\n";
+  std::cout << "\nquitting ducky, goodbye!\n";
   
   return 0;
 }
